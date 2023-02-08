@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 46px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+
+header h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px blue;
+  color:  white;
+  margin-left: 23%;
+  }
+
+  h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px blue;
+  color:  white;
+  text-align: center;
+  font-size: 2.5rem;
+  }
+
+main {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section {
+  font-family: 'Kalam', cursive;
+  width: 45%;
+  background-color: rgba(102, 83, 83, 0.229);
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  opacity: 1;
+  transition: all 0.5s ease;
+  transform: translateZ(0);
+}
+
+/* I have learned the transition and transform from https://www.w3schools.com/css/css3_transitions.asp */
+
+section:hover {
+  transform: scale(1.05);
+  box-shadow: 40px 40px 40px rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+section h2 {
+  text-decoration: underline;
+  font-style: italic;
+  color: #03230e;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+section p {
+  font-size: 30px;
+  text-align: justify;
+  color: #024e36;
+  font-weight: 1000;
+  opacity: 999;
+  font-size: 1.2rem;
+
+}
+
+footer {
+margin-left: 85%;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
